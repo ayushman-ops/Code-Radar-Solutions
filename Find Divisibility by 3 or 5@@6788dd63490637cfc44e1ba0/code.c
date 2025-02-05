@@ -18,7 +18,7 @@ int main(){
         
         }
     else{
-        print("Not Divisible");
+        printf("Not Divisible");
     }
     return 0;
 
