@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main() {
-    int a,b;
-    scanf("%d%d",&a,&b);
-    if((a>0 && b>0) || (a<0 && b<0)){
-        printf("Same Sign");
+    int age,citizen;
+    scanf("%d%d",&age,&citizen);
+    if(age>=18 && citizen==1){
+        printf("Eligible");
+
     }
     else{
-        printf("Different Sign");
+        printf("Not Eligible");
     }
-
     return 0;
 }
