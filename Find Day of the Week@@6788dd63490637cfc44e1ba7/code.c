@@ -21,6 +21,6 @@ int main() {
     printf("Sunday");
     }
     else{
-    print("Invalid");}
+    printf("Invalid");}
     return 0;
 }
