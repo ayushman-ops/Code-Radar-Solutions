@@ -4,10 +4,10 @@
 int main() {
     int a;
     scanf("%d ",&a);
-    if(n>0){
+    if(a>0){
     printf("Positive");}
     
-    else if{
+    else if(a==0){
     printf("Zero");}
     else{
         printf("Negative")
