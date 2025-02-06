@@ -3,6 +3,7 @@
 
 int main() {
     int n;
+    if(n>=1&&n<=7){
     scanf("%d ",&n);
     if (n==1)
     printf("Monday");
@@ -20,6 +21,8 @@ int main() {
     printf("Invalid");
     else
     printf("Sunday");
-    
+    }
+    else
+    print("Invalid");
     return 0;
 }
