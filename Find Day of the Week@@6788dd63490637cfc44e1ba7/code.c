@@ -17,12 +17,10 @@ int main() {
     printf("Friday");
     else if (n==6)
     printf("Saturday");
-    else if (n==0)
-    printf("Invalid");
     else
     printf("Sunday");
     }
-    else
-    print("Invalid");
+    else{
+    print("Invalid");}
     return 0;
 }
