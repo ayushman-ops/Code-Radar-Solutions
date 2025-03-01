@@ -42,7 +42,7 @@ int main() {
             printf("31\n");
             break;
         default:
-            printf("Invalid month.\n");
+            printf("Invalid month\n");
             break;
     }
 
