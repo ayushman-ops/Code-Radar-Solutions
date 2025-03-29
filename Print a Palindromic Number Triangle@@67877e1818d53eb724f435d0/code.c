@@ -7,8 +7,10 @@ int main(){
             printf("*");
         }
         //number
+        int switch = i;
         for(int j = 0;j<2*i+1;j++){
-            printf("%d",j+1);
+            if(j<i)printf("%d",j+1);
+            else printf("%d",j);
         }
 
 
