@@ -9,7 +9,7 @@ int main(){
         //number
         for(int j = 0;j<2*i+1;j++){
             if(j<i)printf("%d",j+1);
-            else continue;
+            else printf("%d",j-i+1);
         }
 
 
