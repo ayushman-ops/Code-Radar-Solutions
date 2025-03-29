@@ -4,7 +4,7 @@ int main(){
     for(int i = 0;i<5;i++){
         //spaces
         for(int j = n - i;j>=0;j--){
-            printf("*")
+            printf("*");
         }
 
 
