@@ -7,9 +7,11 @@ int main(){
             printf("*");
         }
         //number
+        int sep = i;
         for(int j = 0;j<2*i+1;j++){
-            if(j<=i)printf("%d",j+1);
-            else printf("%d",j-i+1);
+            printf("%d",j+1);
+            if(j<=sep) sep--;
+            else sep++;
         }
 
 
