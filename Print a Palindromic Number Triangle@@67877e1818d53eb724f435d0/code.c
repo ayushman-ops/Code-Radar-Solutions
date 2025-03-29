@@ -7,11 +7,12 @@ int main(){
             printf("*");
         }
         //number
+        int r = 1;
         int sep = i;
         for(int j = 0;j<2*i+1;j++){
-            printf("%d",j+1);
-            if(j<=sep) j++;
-            else j--;
+            printf("%d",j);
+            if(j<=sep) r++;
+            else r--;
         }
 
 
